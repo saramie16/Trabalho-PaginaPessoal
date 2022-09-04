@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
 @import url('http://fonts.cdnfonts.com/css/brittany-signature');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 
 body{
     background: linear-gradient(135deg, rgba(200,158,129,1) 0%, rgba(125,99,154,1) 18%, rgba(73,59,172,1) 100%);
@@ -16,7 +16,7 @@ body{
 }
 
 #Nome{
-    font-family: 'Brittany Signature', sans-serif;
+    font-family: 'Ms Madi', cursive;
     font-size: 30px;
 }
 
