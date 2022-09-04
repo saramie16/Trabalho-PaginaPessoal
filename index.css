@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+@import url('http://fonts.cdnfonts.com/css/brittany-signature');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pompiere&display=swap');
+
+body{
+    background: linear-gradient(135deg, rgba(200,158,129,1) 0%, rgba(125,99,154,1) 18%, rgba(73,59,172,1) 100%);
+}
+
+.P1{
+    display:flex;
+    align-content: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#Nome{
+    font-family: 'Brittany Signature', sans-serif;
+    font-size: 30px;
+}
+
+#Frase{
+    font-family: 'Pompiere', cursive;
+}
+
+.Links1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 5%;
+}
+
+button{
+    background-color: #c9998193;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+    margin-left: 100px;
+    border: 0ch;
+    font-family: 'Pompiere', cursive;
+    font-size: 20px;
+}
+button:hover {
+    transform: scale(1.10)
+   }
+
+#foto{
+    height: 5cm;
+    width: 5cm;
+    border-style: ridge;
+    border-color: #c9998193;
+    border-radius: 100%;
+}
+
+.mainmenu {
+    background-color: rgba(0, 0, 0, 0.137);
+    color: white;
+    border: none;
+    padding:5px;
+}
+.mainmenu:hover {
+    background-color: rgba(63, 63, 68, 0.76);
+    }
+.menu {
+    font-family: 'Pompiere', cursive;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+}
+.links-menu {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.199);
+    min-width: 200px;
+}
+.links-menu a{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.menu:hover .links-menu {
+    display: block;
+    position: absolute;
+}
+
+h1{
+    font-family: 'Pompiere', cursive;
+    font-size: 27px;
+    background-color: #c9998125;
+    text-align: center;
+}
+
+.Sites{
+    font-family: 'Pompiere', cursive;
+    margin: 5%;
+    margin-top: 2%;
+    text-align: center;
+    background-color: #c9998113;
+    padding: 4px;
+    border-radius: 10px;
+}
+.Sites img{
+    width: 500px;
+}
+.Sites img:hover{
+    opacity: 0.8;
+}
+.Sites p{
+    font-size: 22px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.rodape{
+    font-family: 'Pompiere', cursive;
+    font-size: 23px;
+    position: absolute;
+}

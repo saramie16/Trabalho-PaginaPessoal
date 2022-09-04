@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+@import url('http://fonts.cdnfonts.com/css/brittany-signature');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pompiere&display=swap');
+
+body{
+    margin-left: 7%;
+    margin-right: 7%;
+    background: linear-gradient(135deg, rgba(200,158,129,1) 0%, rgba(125,99,154,1) 18%, rgba(73,59,172,1) 100%);
+}
+
+h1{
+    font-family: 'Brittany Signature', sans-serif;
+    font-size: 33px;
+    background-color: rgba(255, 228, 196, 0.075);
+}
+
+h2{
+    font-family: 'Pompiere', cursive;
+    font-size: 23px;
+    background-color: rgba(255, 228, 196, 0.075);
+}
+
+p{
+    font-family: 'Pompiere', cursive;
+    font-size: 23px;
+    background-color: rgba(255, 228, 196, 0.075);
+}
+
+.Inf-basicas{
+    padding: 4px;
+    display: flex;
+}
+.Inf-basicas img{
+    width: 130px;
+    height: 140px;
+    padding-left: 6%;
+}
+
+.Playlist{
+    display: flex;
+    justify-content: center;
+}
+.Playlist img{
+    opacity: 0.8;
+    max-width: 130px;
+    padding: 30px;
+}
+.Playlist img:hover{
+    opacity: 1;
+}
+
+.Series{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Series img{
+    max-width: 130px;
+    border-radius: 10px;
+}
+
+.Filmes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Filmes img{
+    max-width: 130px;
+    border-radius: 15px;
+    margin-bottom: 3%;
+}
+.rodape{
+    font-family: 'Pompiere', cursive;
+    font-size: 23px;
+    position: absolute;
+}
